@@ -1,0 +1,32 @@
+{
+  "parent": "bettergunpowder:recipies/root",
+  "rewards": {
+    "recipes": [
+      "bettergunpowder:gunpowder_blocks"
+    ]
+  },
+  "criteria": {
+    "has_coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bettergunpowder:charcoal_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe":  "bettergunpowder:gunpowder_blocks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_coal",
+      "has_the_recipe"
+    ]
+  ]
+}

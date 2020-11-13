@@ -1,0 +1,23 @@
+{
+	"display": {
+	"title": "Unstable Grains",
+	"description": "Using sulfur, saltpeter, and charcoal, craft a gunpowder block",
+	"icon": {
+		"item": "bettergunpowder:gunpowder_block"
+	},
+	"hidden": false
+	},
+	"parent": "bettergunpowder:modmain/root",
+	"criteria": {
+		"errorblock": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bettergunpowder:gunpowder_block"
+					}
+				]
+			}
+		}
+	}
+}

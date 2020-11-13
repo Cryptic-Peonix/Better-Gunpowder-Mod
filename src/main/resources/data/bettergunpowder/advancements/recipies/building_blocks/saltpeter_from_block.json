@@ -1,0 +1,32 @@
+{
+  "parent": "bettergunpowder:recipies/root",
+  "rewards": {
+    "recipes": [
+      "bettergunpowder:saltpeter_from_block"
+    ]
+  },
+  "criteria": {
+    "has_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bettergunpowder:saltpeter_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe":   "bettergunpowder:saltpeter_from_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_block",
+      "has_the_recipe"
+    ]
+  ]
+}

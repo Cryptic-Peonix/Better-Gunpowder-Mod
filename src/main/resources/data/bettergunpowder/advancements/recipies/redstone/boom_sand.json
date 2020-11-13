@@ -1,0 +1,32 @@
+{
+  "parent": "bettergunpowder:recipies/root",
+  "rewards": {
+    "recipes": [
+      "bettergunpowder:boom_sand"
+    ]
+  },
+  "criteria": {
+    "has_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bettergunpowder:gunpowder_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bettergunpowder:boom_sand"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sand",
+      "has_the_recipe"
+    ]
+  ]
+}

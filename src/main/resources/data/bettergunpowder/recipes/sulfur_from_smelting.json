@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "bettergunpowder:sulfur_ore"
+  },
+  "result": "bettergunpowder:sulfur",
+  "experience": 0.7,
+  "cookingtime": 200
+}

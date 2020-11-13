@@ -1,0 +1,23 @@
+{
+	"display": {
+	"title": "It Stinks!",
+	"description": "Obtain some sulfur",
+	"icon": {
+		"item": "bettergunpowder:sulfur"
+	},
+	"hidden": false
+	},
+	"parent": "bettergunpowder:modmain/root",
+	"criteria": {
+		"errorblock": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bettergunpowder:sulfur"
+					}
+				]
+			}
+		}
+	}
+}

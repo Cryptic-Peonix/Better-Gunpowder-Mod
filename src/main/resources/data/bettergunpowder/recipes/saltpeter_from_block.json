@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "bettergunpowder:saltpeter_block"
+		}
+	],
+	"result": {
+		"item": "bettergunpowder:saltpeter",
+		"count": 9
+	}
+}

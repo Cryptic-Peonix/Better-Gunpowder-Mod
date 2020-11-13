@@ -1,0 +1,33 @@
+{
+  "parent": "bettergunpowder:recipies/root",
+  "rewards": {
+    "recipes": [
+      "bettergunpowder:sulfur_from_smelting",
+      "bettergunpowder:sulfur_from_blasting"
+    ]
+  },
+  "criteria": {
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bettergunpowder:sulfur_ore"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe":   "bettergunpowder:sulfur_from_smelting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

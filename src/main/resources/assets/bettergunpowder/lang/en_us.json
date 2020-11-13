@@ -1,0 +1,18 @@
+{
+
+//Blocks
+"block.bettergunpowder.saltpeter_ore": "Saltpeter Ore",
+"block.bettergunpowder.sulfur_ore": "Sulfur Ore",
+"block.bettergunpowder.saltpeter_block": "Block of Saltpeter",
+"block.bettergunpowder.sulfur_block": "Block of Sulfur",
+"block.bettergunpowder.gunpowder_block": "Block of Gunpowder",
+"block.bettergunpowder.charcoal_block": "Block of Charcoal",
+"block.bettergunpowder.boom_sand": "Boom Sand",
+
+//Items
+"item.bettergunpowder.sulfur": "Sulfur",
+"item.bettergunpowder.saltpeter": "Saltpeter",
+
+//Entities
+"entity.bettergunpowder.gunpowder_block": "Primed Gunpowder"
+}

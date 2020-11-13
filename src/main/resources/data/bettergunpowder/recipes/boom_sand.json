@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#I#",
+		"###"
+	],
+	"key": {
+		"I": {
+			"item": "bettergunpowder:gunpowder_block"
+		},
+		"#": {
+			"item": "minecraft:sand"
+		}
+	},
+	"result": {
+		"item": "bettergunpowder:boom_sand",
+		"count": 8
+	}
+}

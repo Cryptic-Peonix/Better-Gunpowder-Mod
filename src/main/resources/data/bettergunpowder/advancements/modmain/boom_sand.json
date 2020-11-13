@@ -1,0 +1,23 @@
+{
+	"display": {
+	"title": "It's a Trap!",
+	"description": "Craft some 'sand'",
+	"icon": {
+		"item": "bettergunpowder:boom_sand"
+	},
+	"hidden": false
+	},
+	"parent": "bettergunpowder:modmain/root",
+	"criteria": {
+		"errorblock": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bettergunpowder:boom_sand"
+					}
+				]
+			}
+		}
+	}
+}

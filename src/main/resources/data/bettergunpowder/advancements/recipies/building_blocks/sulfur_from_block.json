@@ -1,0 +1,32 @@
+{
+  "parent": "bettergunpowder:recipies/root",
+  "rewards": {
+    "recipes": [
+      "bettergunpowder:sulfur_from_block"
+    ]
+  },
+  "criteria": {
+    "has_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bettergunpowder:sulfur_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe":   "bettergunpowder:sulfur_from_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_block",
+      "has_the_recipe"
+    ]
+  ]
+}

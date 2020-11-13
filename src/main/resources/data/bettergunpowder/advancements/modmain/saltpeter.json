@@ -1,0 +1,23 @@
+{
+	"display": {
+	"title": "Salty...",
+	"description": "Obtain some saltpeter",
+	"icon": {
+		"item": "bettergunpowder:saltpeter"
+	},
+	"hidden": false
+	},
+	"parent": "bettergunpowder:modmain/root",
+	"criteria": {
+		"errorblock": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bettergunpowder:saltpeter"
+					}
+				]
+			}
+		}
+	}
+}

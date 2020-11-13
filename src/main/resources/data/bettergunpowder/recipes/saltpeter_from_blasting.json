@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "bettergunpowder:saltpeter_ore"
+  },
+  "result": "bettergunpowder:saltpeter",
+  "experience": 0.7,
+  "cookingtime": 100
+}

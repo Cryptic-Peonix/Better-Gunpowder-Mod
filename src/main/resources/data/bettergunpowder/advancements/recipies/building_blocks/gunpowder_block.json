@@ -1,0 +1,32 @@
+{
+  "parent": "bettergunpowder:recipies/root",
+  "rewards": {
+    "recipes": [
+      "bettergunpowder:gunpowder_block"
+    ]
+  },
+  "criteria": {
+    "has_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gunpowder"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bettergunpowder:gunpowder_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_powder",
+      "has_the_recipe"
+    ]
+  ]
+}
